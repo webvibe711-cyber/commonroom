@@ -22,6 +22,16 @@ npm run build
 npm run preview
 ```
 
+## Deploy to Vercel
+
+Import this repository in Vercel and deploy it as a Vite project. Vercel can use the defaults:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Install command: `npm install`
+
+The included `vercel.json` sends requests to the app entry point, and Vite is configured to serve assets from the site root.
+
 ## Project structure
 
 ```text
